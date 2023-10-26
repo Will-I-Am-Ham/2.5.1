@@ -8,8 +8,10 @@ public class Runner
 {
   public static void main(String[] args) 
   {
-    PhraseSolver p = new PhraseSolver(); 
+    PhraseSolver p = new PhraseSolver("bob", "kyle"); 
     p.play();
+
+    Board b = new Board();
   }
 
 } 

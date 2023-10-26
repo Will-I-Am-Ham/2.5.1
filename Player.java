@@ -8,11 +8,32 @@ import java.util.Scanner;
 
 public class Player
 {
-  /* your code here - attributes */
+  private String name = ""; 
+  private double points;
+  
+  public Player(){
+    name = "";
+    points = 0.0;
+  }
 
-  /* your code here - constructor(s) */ 
+  public Player(String name_, double points_){
+    name = name_;
+    points = points_;
+  }
 
-  /* your code here - accessor(s) */ 
-
-  /* your code here - mutator(s) */ 
+  public String getName()
+  {
+    return name;
+  }
+  
+  public void setName(String x)
+  {
+    name = x;
+  }
+   
+  public double getPoints()
+  {
+    return points;
+  }
+   
 }
